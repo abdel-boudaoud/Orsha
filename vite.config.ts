@@ -18,6 +18,6 @@ export default defineConfig({
     tsconfigPaths(),
   ],
   build: {
-    target: "node",
+    target: "node21",
   },
 });
