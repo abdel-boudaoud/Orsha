@@ -24,14 +24,14 @@ const accessToken = isServer
   ? process.env.STORYBLOK_TOKEN
   : window.env.STORYBLOK_TOKEN;
 storyblokInit({
-  accessToken,
+  accessToken:'rF9dcOIIiXK8sNGQLkliyQtt',
   use: [apiPlugin],
   components,
-  bridge: isPreview(),
+  // bridge: isPreview(),
 });
 
 export function Layout({ children }) {
-  const env = useLoaderData();
+  // const env = useLoaderData();
 
   return (
     <html lang="en">
